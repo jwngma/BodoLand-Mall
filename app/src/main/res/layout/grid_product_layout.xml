@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="3dp"
+    android:background="@drawable/bg_slidera"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/grid_product_layout_viewallBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="#fff"
+        android:background="@drawable/bg_slidera"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="View More"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/grid_product_layout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deals of the Dayss!!"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/grid_product_layout_viewallBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grid_product_layout_viewallBtn"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <GridView
+        android:id="@+id/grid_product_layout_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_grey"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="2"
+        android:verticalSpacing="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid_product_layout_viewallBtn"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "721219849347",
+    "firebase_url": "https://my-project-1483363531263.firebaseio.com",
+    "project_id": "my-project-1483363531263",
+    "storage_bucket": "my-project-1483363531263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721219849347:android:48a51b8fa73150d9",
+        "android_client_info": {
+          "package_name": "com.mall.bodolandmall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721219849347-2jg8caqf2c1jcigo2eqvr5n3ho1ugqqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIcYZs4f2bDxVKjRlNPUE7RZ-n1KHOVEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721219849347-2jg8caqf2c1jcigo2eqvr5n3ho1ugqqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

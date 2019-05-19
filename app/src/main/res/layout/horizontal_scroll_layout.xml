@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_slidera"
+    android:layout_width="match_parent"
+    android:elevation="3dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/horizontal_scroll_viewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="View More"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:background="@drawable/bg_slidera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/horizontal_scroll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Deals of the Day!"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontal_scroll_viewAll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_scroll_viewAll"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/horizontal_scroll_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll_viewAll" />
+</android.support.constraint.ConstraintLayout>

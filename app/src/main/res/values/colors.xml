@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#E91E63</color>
+    <color name="colorAccent">#673AB7</color>
+    <color name="link_color">#3F51B5</color>
+    <color name="black">#000</color>
+    <color name="btn_color">#E91E63</color>
+    <color name="divider_colore">#80000000</color>
+    <color name="tab_layout_background">#d4d4d4</color>
+
+    <color name="success_green">#4CAF50</color>
+    <color name="color_accent">#ffffff</color>
+    <color name="recyclerview_color">#d6d6d6</color>
+</resources>

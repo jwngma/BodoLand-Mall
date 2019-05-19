@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/strip_ads_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="3dp"
+    android:layout_width="match_parent"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/bg_slider"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/strip_ads_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/slider1" />
+</android.support.constraint.ConstraintLayout>
